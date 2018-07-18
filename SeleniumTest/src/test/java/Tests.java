@@ -111,7 +111,7 @@ public class Tests {
         На странице отсутствует ссылка с атрибутом href равным «user/someuser/delete».
      */
     @Test(dependsOnMethods = "testDeletedUser")
-    public void testNotExistingLink() {
+    public void testNotExistLinks() {
         ManageUsersPage manageUsersPage = PageFactory.initElements(driver, ManageUsersPage.class);
         Assert.assertFalse(manageUsersPage.someUserDeleteLinkExists(), "User delete link exists");
     }

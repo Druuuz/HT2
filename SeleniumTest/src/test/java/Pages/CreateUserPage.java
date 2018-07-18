@@ -30,7 +30,7 @@ public class CreateUserPage extends WebPage {
     @FindBy(name = "email")
     private WebElement email;
 
-    @FindBy(id = "yui-gen1-button")
+    @FindBy(id = "yui-gen3-button")
     private WebElement submitFormButton;
 
     public CreateUserPage(WebDriver driver) {

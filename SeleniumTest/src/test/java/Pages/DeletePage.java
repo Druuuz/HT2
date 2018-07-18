@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class DeletePage extends WebPage {
 
-    @FindBy(id = "yui-gen1-button")
+    @FindBy(id = "yui-gen3-button")
     private WebElement buttonYes;
 
     public DeletePage(WebDriver driver) {
